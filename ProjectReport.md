@@ -115,7 +115,7 @@ ArcPy Summary Statistics calculated the following for each `RailFlag` group:
 - Maximum IRI
 - Standard deviation
 
-The analysis was organized between `smit2788_main.ipynb` and `smit2788_module.py`. The notebook defines project paths, checks inputs, receives the user-entered buffer distance, calls the processing functions, and displays final results. Reusable ArcPy functions are stored in the Python module.
+The analysis was organized between `railroadRoughness.ipynb` and `railroadRoughness.py`. The notebook defines project paths, checks inputs, receives the user-entered buffer distance, calls the processing functions, and displays final results. Reusable ArcPy functions are stored in the Python module.
 
 ## Processing Workflow
 

@@ -50,6 +50,26 @@ The average of the before- and after-crossing means was **155.80**. The crossing
 
 The results show a clear association between public at-grade railroad crossing locations and higher roadway roughness in the matched ODOT pavement data.
 
+## Project Files
+
+- [`railroadRoughness.ipynb`](railroadRoughness.ipynb) — notebook containing project setup, input inspection, workflow execution, and results.
+- [`railroadRoughness.py`](railroadRoughness.py) — reusable ArcPy functions used by the notebook.
+- [`ProjectReport.md`](ProjectReport.md) — detailed project summary, methods, results, limitations, and references.
+
+## Running the Project
+
+The source datasets are not stored in this repository. The notebook expects the following local structure relative to the repository folder:
+
+```text
+RawData/
+  OK_Pavement_IRI.shp
+  RailRoadCrossings.shp
+
+Output/
+```
+
+The notebook creates the `Output` folder if needed and writes processed layers and tables to `RailRoughnessAnalysis.gpkg`.
+
 ## Requirements
 
 The project was developed using:
